@@ -1,0 +1,123 @@
+@import url("../../css/style.css");
+
+.site-nav {
+	margin: 29px 0 28px 0;
+}
+.site-nav a {
+	font-size: 12px;
+}
+.site-nav a:first-child {
+	color: #767676;
+	text-decoration: underline;
+}
+.site-map {
+	margin-bottom: 63px;
+}
+.site-map h1 {
+	color: #414141;
+	font-size: 28px;
+	font-family: 'pf_beausans_prosemibold';
+}
+.map-shop,
+.map-cafe {
+	float: left;
+	margin-top: 33px;
+}
+.map-cafe {
+	margin-left: 143px;
+}
+.map-shop a,
+.map-cafe a {
+	font-size: 12px;
+	text-decoration: underline;
+}
+.map-shop section {
+	margin-left: 19px;
+}
+.site-map-orange {
+	color: #ff7109;
+}
+.site-map-red {
+	color: #c9252b;
+}
+.site-map-grey {
+	color: #767676;
+}
+.site-map-clothe ul,
+.site-map-shoes ul,
+.site-map-services ul,
+.site-map-extra ul,
+.site-map-cafe ul,
+.site-map-events ul,
+.site-map-scheme ul,
+.site-map-how-to-get ul {
+	margin-left: 20px;
+	line-height: 22px;
+}
+.site-map-clothe {
+	margin-top: 4px;
+}
+.site-map-shoes,
+.site-map-events,
+.site-map-scheme,
+.site-map-how-to-get,
+.site-map-children-goods,
+.site-map-extra,
+.site-map-about {
+	margin-top: 8px;
+}
+.site-map-cosmetics,
+.site-map-accesories,
+.site-map-gifts,
+.site-map-services,
+.site-map-rentors,
+.site-map-feedback {
+	margin-top: 10px;
+}
+.site-map-clothe ul,
+.site-map-services ul,
+.site-map-cafe ul,
+.site-map-events ul,
+.site-map-scheme ul,
+.site-map-shoes ul,
+.site-map-extra ul,
+.site-map-how-to-get ul {
+	margin-top: 2px;
+}
+
+/*start orange square*/
+	.site-map-orange-square {
+		width: 8px;
+		height: 8px;
+		display: inline-block;
+		margin-left: -19px;
+		margin-right: 8px;
+		/*opacity: .7;*/
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		background-color: #ff7109;
+	}
+/*end orange square*/
+
+/*start grey square*/
+	.site-map-grey-square {
+		width: 8px;
+		height: 8px;
+		display: inline-block;
+		margin-left: -19px;
+		margin-right: 8px;
+		/*opacity: .7;*/
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		background-color: #808080;
+	}
+/*end grey square*/
+

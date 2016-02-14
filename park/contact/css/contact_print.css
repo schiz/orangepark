@@ -1,0 +1,36 @@
+.content{
+	padding-bottom: 7px;
+}
+.working-hours{
+	margin-left: 81px;
+}
+header .adress{
+	margin-left: 68px;
+	font-size: 12px;
+}
+header .info-number{
+	margin-left: 75px;
+}
+header .link{
+	font-family: 'pf_beausans_proregular', sans-serif;
+	font-size: 12px;
+	float: right;
+	margin-right: 3px;
+}
+.top-content{
+	margin-top: 59px;
+}
+#map{
+	margin-top: 45px;
+	margin-bottom: 0;
+}
+.left-blocks-drive, .right-blocks-drive{
+	margin-top: 39px;
+	width: 464px;
+}
+.all-rights{
+	color: #656565;
+	font-family: 'pf_beausans_proregular', sans-serif;
+	font-size: 13px;
+	margin-top: 3px;
+}

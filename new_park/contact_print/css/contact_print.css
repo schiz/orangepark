@@ -1,0 +1,134 @@
+@import url("../../css/style.css");
+.clear{
+	clear: both;
+}
+.content{
+	width: 990px;
+	margin: 0 auto 7px auto;
+	font-size: 12px;
+	line-height: 18px;
+	color: #424242;
+}
+.content-title h1{
+	margin-top: 29px;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'pf_beausans_proregular', sans-serif;
+}
+.content-title{
+	margin-top: 7px;
+	letter-spacing: -0.028em;
+}
+.content-menu a{
+	color: #767676;
+}
+.content-menu{
+	padding-left: 0;
+}
+.content-menu li{
+	display: inline-block;
+	color: #3e3e3e;
+	font-family: Arial, sans-serif;
+}
+.content-menu li:after{
+	content: "/";
+	display: inline-block;
+	padding: 0 3px 0 6px;
+}
+.content-menu li:last-child:after{
+	content: "";
+	display: block;
+}
+.content-print{
+	padding-bottom: 7px;
+}
+.working-hours{
+	margin-left: 81px;
+}
+header .adress{
+	margin-left: 68px;
+	font-size: 12px;
+}
+header .info-number{
+	margin-left: 75px;
+}
+header .link{
+	font-family: 'pf_beausans_proregular', sans-serif;
+	font-size: 12px;
+	float: right;
+	margin-right: 3px;
+}
+.left-blocks-drive{
+	float: left;
+	width: 477px;
+	font-family: arial, sans-serif;
+	margin-top: 52px;
+}
+.right-blocks-drive{
+	float: right;
+	width: 477px;
+	font-family: arial, sans-serif;
+	margin-top: 52px;
+}
+.block-drive{
+	margin-bottom: 32px;
+}
+.title-drive{
+	font-family: 'pf_beausans_prolight', sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+}
+.title-drive p{
+	display: inline-block;
+	font-size: 12px;
+	font-family: arial, sans-serif;
+}
+.desc-drive{
+	margin-top: 5px;
+	margin-bottom: 17px;
+}
+.car-drive{
+	background: url(../../images/icoDrive.png) no-repeat 0 0;
+	width: 23px;
+	height: 19px;
+}
+.wrap-img-drive{
+	float: left;
+	width: 31px;
+}
+.parking-drive{
+	background: url(../../images/icoDrive.png) no-repeat -50px 0px;
+	width: 20px;
+	height: 19px;
+}
+.public-transport-drive{
+	background: url(../../images/icoDrive.png) no-repeat -27px 0;
+	width: 21px;
+	height: 22px;
+}
+.time-transport-drive{
+	background: url(../../images/icoDrive.png) no-repeat -72px 0;
+	width: 20px;
+	height: 20px;
+}
+#map{
+	margin-top: 43px;
+	margin-bottom: 0;
+}
+.left-blocks-drive, .right-blocks-drive{
+	margin-top: 39px;
+	width: 464px;
+}
+.all-rights{
+	color: #656565;
+	font-family: 'pf_beausans_proregular', sans-serif;
+	font-size: 13px;
+	margin-top: 3px;
+}
+.ymaps-copyright-legend-container{
+	display: none;
+}
+.ymaps-copyrights-logo{
+	display: none;
+}

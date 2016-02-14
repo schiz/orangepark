@@ -1,0 +1,150 @@
+@import url("../../css/style.css");
+.clear{
+	clear: both;
+}
+.content-events{
+	margin: 0 auto;
+	margin-bottom: 36px;
+	width: 990px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #424242;
+}
+.content-title h1{
+	margin-top: 29px;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'pf_beausans_proregular', sans-serif;
+}
+.content-title{
+	margin-top: 7px;
+}
+.content-menu a{
+	color: #767676;
+}
+.content-menu{
+	padding-left: 0;
+}
+.content-menu li{
+	display: inline-block;
+	color: #3e3e3e;
+	font-family: Arial, sans-serif;
+}
+.content-menu li:after{
+	content: "/";
+	display: inline-block;
+	padding: 0 3px 0 6px;
+}
+.content-menu li:last-child:after{
+	content: "";
+	display: block;
+}
+.top-content{
+	margin-top: 29px;
+}
+/* BLOCKS EVENTS */
+.events-blocks{
+	margin-top: 36px;
+}
+.events-blocks .events-block:last-child{
+	margin-right: 0;
+}
+.events-block{
+	width: 301px;
+	overflow: hidden;
+	float: left;
+	margin-right: 43px;
+}
+.img-events{
+	width: 301px;
+	height: 222px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.img-events img{
+	width: 100%;
+	height: 222px
+}
+.date-events{
+	color: #474747;
+	margin-top: 24px;
+	line-height: 15px;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+}
+.date-events:before{
+	content: "";
+	display: block;
+	margin-right: 6px;
+	float: left;
+	background: url(../../images/date.png) no-repeat;
+	width: 14px;
+	height: 14px;
+}
+.date-events:after{
+	clear: both;
+}
+.title-events{
+	color: #c9252b;
+	font-size: 16px;
+	font-family: 'pf_beausans_probbook', sans-serif;
+	text-decoration: underline;
+	display: block;
+	margin-top: 12px;
+	line-height: 16px;
+}
+.title-events:hover{
+	text-decoration: none;
+}
+.desc-events{
+	color: #4f4e4e;
+	font-family: Arial, sans-serif;
+	margin-top: 10px;
+}
+.border-width {
+	background: url(../../images/border-width.png) repeat-x;
+	width: 100%;
+	margin: 44px 0 51px 0;
+	height: 1px;
+}
+/* navigation */
+.navigation{
+	margin-top: 36px;
+}
+.navigation .prev{
+	float: left;
+	background: url(../../images/pager.png) no-repeat;
+	width: 13px;
+	height: 16px;
+	margin-right: 11px;
+}
+.navigation .prev:hover{
+	background: url(../../images/pager.png) no-repeat -29px 0;
+	cursor: pointer;
+}
+.navigation .next{
+	float: left;
+	background: url(../../images/pager.png) no-repeat -14px 0;
+	width: 13px;
+	height: 16px;
+	margin-left: 11px;
+}
+.navigation .next:hover{
+	background: url(../../images/pager.png) no-repeat -43px 0;
+	cursor: pointer;
+}
+.navigation a{
+	color: #474747;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	float: left;
+}
+.navigation a:after{
+	content: "/";
+	padding: 0 8px 0 7px;
+}
+.navigation a:nth-last-child(2):after{
+	content: "";
+	padding: 0;
+}

@@ -1,0 +1,43 @@
+@import url("../../css/style.css");
+.clear{
+	clear: both;
+}
+.content{
+	width: 833px;
+	font-size: 12px;
+	margin: 0 auto;
+	line-height: 18px;
+	color: #424242;
+	position: relative;
+	height: 100%;
+}
+body .content-404{
+	margin: 0 auto 34px auto;
+}
+.img-404{
+	float: right;
+	margin-top: 43px;
+	margin-right: 79px;
+}
+.wrap-desc-404{
+	display: table;
+	position: relative;
+	margin-top: 12px;
+	float: right;
+	height: 562px;
+	width: 277px;
+	margin-right: -2px;
+}
+.desc-404{
+	display: table-cell;
+	width: 253px;
+	font-family: 'pf_beausans_prolight', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	vertical-align: middle;
+}
+.desc-404 a{
+	color: #c9252b;
+	font-family: 'pf_beausans_prolight', sans-serif;
+	text-decoration: underline;
+}

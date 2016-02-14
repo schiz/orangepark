@@ -1,0 +1,95 @@
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+.mini-slider{
+	background-color: #f9ebda;
+}
+.bx-wrapper {
+	position: relative;
+	padding: 0;
+	width: 100%;
+}
+.bx-wrapper li{
+	width: 155px;
+	height: 77px;
+}
+.bx-wrapper li img {
+	max-width: 100%;
+	display: block;
+	max-height: 77px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	cursor: pointer;
+}
+.bx-wrapper li img:last-child{
+	display: none;
+}
+.bx-wrapper li:hover img:last-child{
+	display: block;
+}
+.bx-wrapper li:hover img:first-child{
+	display: none;
+}
+/** THEME
+===================================*/
+
+.bx-wrapper .bx-viewport {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #f9ebda;
+	height: 77px !important;
+	outline: hidden;
+}
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	left: -75px;
+	background: url(../../images/icon-sprite.png) no-repeat -192px -56px;
+	-moz-transform: rotate(180deg); /* Для Firefox */
+	-ms-transform: rotate(180deg); /* Для IE */
+	-webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+	-o-transform: rotate(180deg); /* Для Opera */
+	transform: rotate(180deg);
+}
+
+.bx-wrapper .bx-next {
+	right: -72px;
+	background: url(../../images/icon-sprite.png) no-repeat -192px -56px;
+}
+
+.bx-wrapper .bx-controls-direction a:hover {
+	background-position: -144px -56px;
+	opacity: 1;
+}
+
+.bx-wrapper .bx-controls-direction a:hover {
+	background-position: -144px -56px;
+	opacity: 1;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	top: 22px;
+	position: absolute;
+	outline: 0;
+	width: 28px;
+	height: 34px;
+	text-indent: -9999px;
+	z-index: 9999;
+	opacity: .5;
+}

@@ -1,0 +1,125 @@
+.site-map {
+	margin-bottom: 63px;
+}
+.left,
+.right {
+	float: left;
+	margin-top: 31px;
+	margin-bottom: 66px;
+}
+.right {
+	margin-left: 143px;
+}
+.left a,
+.right a {
+	font-size: 12px;
+	text-decoration: underline;
+}
+.left section {
+	margin-left: 19px;
+}
+.site-map-orange {
+	color: #ff7109;
+}
+.site-map-red {
+	color: #c9252b;
+}
+.site-map-grey {
+	color: #767676;
+}
+/*.site-map-clothe ul,
+.site-map-shoes ul,
+.site-map-services ul,
+.site-map-extra ul,
+.site-map-cafe ul,
+.site-map-events ul,
+.site-map-scheme ul,
+.site-map-how-to-get ul {
+	margin-left: 20px;
+	line-height: 22px;
+}*/
+.site-map-clothe {
+	margin: 5px 0 0 19px;
+}
+.site-map-cafe,
+.site-map-events,
+.site-map-scheme,
+.site-map-how-to-get {
+	margin: 5px 0 10px 19px;	
+}
+.site-map-clothe li,
+.site-map-shoes li,
+.site-map-services li,
+.site-map-extra li {
+	margin: 4px 0 0 20px;
+}
+.site-map-cafe li,
+.site-map-events li,
+.site-map-scheme li {
+	margin: 3px 0 0 0;
+}
+.site-map-shoes {
+	/*margin-top: 8px;*/
+	margin: 9px 0 0 19px;
+}
+.site-map-about,
+.site-map-rentors,
+.site-map-feedback {
+	margin: 9px 0 0 0;
+}
+.site-map-cosmetics,
+.site-map-accesories,
+.site-map-gifts,
+.site-map-services,
+.site-map-children-goods,
+.site-map-extra {
+	/*margin-top: 10px;*/
+	margin: 10px 0 0 19px;
+}
+.site-map-clothe ul,
+.site-map-services ul,
+.site-map-cafe ul,
+.site-map-events ul,
+.site-map-scheme ul,
+.site-map-shoes ul,
+.site-map-extra ul,
+.site-map-how-to-get ul {
+	margin-top: 2px;
+}
+
+/*start orange square*/
+	.site-map-orange-square {
+		width: 8px;
+		height: 8px;
+		display: inline-block;
+		margin-left: -19px;
+		margin-right: 8px;
+		/*opacity: .7;*/
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		background-color: #ff7109;
+	}
+/*end orange square*/
+
+/*start grey square*/
+	.site-map-grey-square {
+		width: 8px;
+		height: 8px;
+		display: inline-block;
+		margin-left: -19px;
+		margin-right: 8px;
+		/*opacity: .7;*/
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		background-color: #808080;
+	}
+/*end grey square*/
+

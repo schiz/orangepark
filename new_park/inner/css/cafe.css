@@ -1,0 +1,190 @@
+.cafe-description {
+	color: #414141;
+	font-family: "Arial";
+	font-size: 14px;
+	display: block;
+	margin-top: 20px;
+}
+.banner {
+	color: #ff7109;
+	font-family: "pf_beausans_proregular";
+	font-size: 24px;
+	text-transform: uppercase;
+	position: absolute;
+	float: left;
+	line-height: 28px;
+	letter-spacing: -0.01em;
+}
+.cafe-page-result:after {
+	content: "";
+	background: url(../../images/border-width.png) repeat-x;
+	width: 100%;
+	display: block;
+	margin: 0 0 40px 0;
+	height: 1px;
+}
+.cafe-page-result:last-child:after {
+	content: "";
+	background: none;
+}
+.cafe-page-result .topic {
+	margin: 42px 0 31px 1px;
+}
+.cafe-page-result .more-info {
+	margin-left: 293px;
+	margin-top: -4px;
+}
+.cafe-page-result .more-info a {
+	text-decoration: underline;
+}
+.cafe-page-result .more-info .contacts {
+	margin: 1px 45px 0 82px;
+}
+.cafe-page-result .more-info .shops-location {
+	margin: 1px 0 0 77px;
+}
+.cafe-page-result .more-info .shops-location section {
+	margin-left: 5px;
+}
+.cafe-page-result .more-info .shops-location section:last-child {
+	margin-top: 1px;
+	margin-left: 6px;
+}
+.cafe-page-result .more-info .shops-location .sheme-icon {
+	margin-left: -37px;
+}
+.cafe-page-result .more-info .shops-location .floor-icon {
+	margin-left: -33px;
+}
+.cafe-page-result .result {
+	padding-bottom: 45px;
+	margin: 0;
+}
+.cafe-page-result .more-post-text {
+	margin: 22px 0 0 2px;
+	display: none;
+}
+.cafe-page-result:nth-child(2) .result {
+	padding-bottom: 48px;
+}
+.cafe-page-result:nth-child(2) .topic {
+	margin: 57px 0 33px 0;
+}
+.cafe-page-result:nth-child(2) .show-more {
+	margin-top: 15px;
+}
+.cafe-page-result:nth-child(3) .topic {
+	margin: 56px 0 33px 0;
+}
+.cafe-page-result:nth-child(3) .result {
+	border: none;
+}
+.cafe-page-result:last-child {
+	margin-bottom: -22px;
+}
+/* canvas */
+#a35{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.a35{
+	top: 69px;left: 426px;
+	cursor: pointer;
+}
+.cursorCafe {
+	position: absolute;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(16,17,17,.5);
+	z-index: 5;
+	background: #fff;
+	text-transform: uppercase;
+	padding: 15px;
+	display: block;
+}
+.cursorCafe img{
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 48px;
+	margin: auto;
+}
+.img-buy-cafe{
+	display: none;
+	position: absolute;
+	z-index: 6;
+	background: url(../../images/cafe.png);
+	width: 28px;
+	height: 29px;
+}
+.imga35{
+	display: block;
+	cursor: pointer;
+	top: 138px;
+	left: 514px;
+}
+.img-cafe{
+	display: none;
+	position: absolute;
+	z-index: 4;
+	background: url(../../images/cafe.png);
+	width: 28px;
+	height: 29px;
+	cursor: pointer;
+}
+.imgb1300{top: 403px;left: 178px;}
+.imga216{top: 145px;left: 543px;}
+.imgk02{top: 164px;left: 96px;}
+.imgk01{top: 223px;left: 88px;}
+.imga237{top: 272px;left: 165px;}
+.imga238{top: 272px;left: 250px;}
+.imga204{top: 401px;left: 353px;}
+.imga203{top: 472px;left: 379px;}
+.imga201{top: 398px;left: 500px;}
+.imga236{top: 446px;left: 597px;}
+.imga235{top: 460px;left: 670px;}
+.imga234{top: 410px;left: 804px;}
+.imga233{top: 295px;left: 804px;}
+.imga232{top: 230px;left: 804px;}
+.imga231{top: 187px;left: 804px;}
+.imga230{top: 143px;left: 804px;}
+.imga229{top: 54px;left: 831px;}
+.imga228{top: 33px;left: 763px;}
+.imga227{top: 19px;left: 676px;}
+.imga226{top: 19px;left: 631px;}
+.imga225{top: 19px;left: 529px;}
+.imga224{top: 26px;left: 461px;}
+.imga222{top: 37px;left: 388px;}
+.imga221{top: 98px;left: 644px;}
+.imga220{top: 98px;left: 588px;}
+.imga219{top: 98px;left: 530px;}
+.imga218{top: 143px;left: 630px;}
+.imga217{top: 145px;left: 588px;}
+.imga215{top: 145px;left: 491px;}
+.imga214{top: 222px;left: 581px;}
+.imga213{top: 225px;left: 543px;}
+.imga212{top: 225px;left: 482px;}
+.imga211{top: 273px;left: 545px;}
+.imga210{
+	top: 310px;
+	left: 531px;
+	-ms-transform:scale(.5);
+	-webkit-transform:scale(.5);
+	-o-transform:scale(.5);
+	-moz-transform:scale(.5);
+}
+.imga209{top: 225px;left: 482px;}
+.imga209{top: 295px;left: 498px;}
+.imga208{top: 318px;left: 454px;}
+.imga207{top: 274px;left: 436px;}
+.imga206{top: 316px;left: 412px;}
+.imga205{top: 307px;left: 380px;}
+.imga223{top: 96px;left: 429px;}
+.imga224{top: 27px;left: 460px;}
+.imgws{top: 12px;left: 303px;}
+.imgk03{top: 100px;left: 125px;}
+.imgk04{top: 100px;left: 203px;}
+.imgk05{top: 100px;left: 270px;}
