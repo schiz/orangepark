@@ -3,4 +3,4 @@
 * Front-end development of an entertainment park with interactive map.
 * Stack: HTML 5, CSS3, JavaScript (jQuery) 
 
-![alt text](https://github.com/schiz/orangepark/ishodnik.jpg "Orangepark markup")
+![alt text](https://github.com/schiz/orangepark/raw/master/ishodnik.jpg "Orangepark markup")
